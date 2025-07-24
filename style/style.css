@@ -460,7 +460,7 @@ body {
 }
 
 .join-section {
-    background-image: url('../assets/news-letter-bg.png');
+    background-image: url('/assets/news-letter-bg.png');
     
     background-size: cover;
     background-position: center;
