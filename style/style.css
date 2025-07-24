@@ -155,3 +155,98 @@ body {
         font-size: 15px;
     }
 }
+/* Plants Section */
+.plants-section {
+    background-color: #f5f7fc;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.plants-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.plants-section .orange {
+    color: #ff6a00;
+}
+
+.plants-section .black {
+    color: #000;
+}
+
+.plants-subtitle {
+    font-size: 16px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+/* Grid Layout */
+.plants-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+/* Individual Card */
+.card {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 220px;
+    border-radius: 6px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.card .price {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.add-to-cart {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #e45a00;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .plants-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .plants-section {
+        padding: 40px 20px;
+    }
+
+    .plants-subtitle {
+        font-size: 14px;
+    }
+}
